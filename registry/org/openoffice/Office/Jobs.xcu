@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Registers TabBarJob to run on LO startup and document open/close events.
+
+  onFirstVisibleTask: fires when the first LO window becomes visible – used as
+  a reliable bootstrap to register our own XDocumentEventListener, which then
+  handles all subsequent document open/close events directly.
+
+  onLoad / onNew / onClose: lowercase, matching the names fired by SFX2 via
+  XDocumentEventBroadcaster.  Belt-and-suspenders alongside our own listener.
+-->
+<oor:component-data
+    oor:name="Jobs"
+    oor:package="org.openoffice.Office"
+    xmlns:oor="http://openoffice.org/2001/registry"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Job definition: maps friendly name to UNO implementation name -->
+  <node oor:name="Jobs">
+    <node oor:name="TabBarJob" oor:op="replace">
+      <prop oor:name="Service" oor:type="xs:string">
+        <value>com.github.tabbar.Job</value>
+      </prop>
+      <prop oor:name="Context" oor:type="xs:string">
+        <value/>
+      </prop>
+    </node>
+  </node>
+
+  <!-- Events that trigger the job -->
+  <node oor:name="Events">
+
+    <!-- LO startup – fires once when the first window appears -->
+    <node oor:name="onFirstVisibleTask">
+      <node oor:name="JobList">
+        <node oor:name="TabBarJob" oor:op="replace"/>
+      </node>
+    </node>
+
+    <!-- Document loaded from file -->
+    <node oor:name="onLoad">
+      <node oor:name="JobList">
+        <node oor:name="TabBarJob" oor:op="replace"/>
+      </node>
+    </node>
+
+    <!-- New document created (File > New) -->
+    <node oor:name="onNew">
+      <node oor:name="JobList">
+        <node oor:name="TabBarJob" oor:op="replace"/>
+      </node>
+    </node>
+
+    <!-- Document closed -->
+    <node oor:name="onClose">
+      <node oor:name="JobList">
+        <node oor:name="TabBarJob" oor:op="replace"/>
+      </node>
+    </node>
+
+  </node>
+</oor:component-data>

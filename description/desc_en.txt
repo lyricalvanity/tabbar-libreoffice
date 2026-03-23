@@ -1,0 +1,10 @@
+Tab Bar adds a document tab bar to LibreOffice Writer. All open Writer documents appear as clickable tabs in a toolbar — switch between documents instantly without using the Window menu.
+
+Features:
+  • Active tab highlighted with ● indicator
+  • Modified (unsaved) documents marked with *
+  • Per-tab menu: Rename, Save, Save As, Move Left/Right, New Document, Close, Close All Others, Close All
+  • Saved Tab Sets: save a group of open documents and restore them in one click
+  • Restore Last Session: reopen the documents you had open when you last quit
+  • Optional Ctrl+Tab / Ctrl+Shift+Tab cycling (toggle in the Sets menu)
+  • Works on Windows, macOS, and Linux

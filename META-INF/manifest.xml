@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifest:manifest PUBLIC
+    "-//OpenOffice.org//DTD Manifest 1.0//EN"
+    "Manifest.dtd">
+<manifest:manifest xmlns:manifest="http://openoffice.org/2001/manifest">
+
+  <!-- Python UNO component (TabBarJob + TabBarProtocolHandler) -->
+  <manifest:file-entry
+      manifest:media-type="application/vnd.sun.star.uno-component;type=Python"
+      manifest:full-path="tab_bar.py"/>
+
+  <!-- Job registration: onFirstVisibleTask / onLoad / onNew / onClose -->
+  <manifest:file-entry
+      manifest:media-type="application/vnd.sun.star.configuration-data"
+      manifest:full-path="registry/org/openoffice/Office/Jobs.xcu"/>
+
+  <!-- Protocol handler: tabbar:* URLs routed to TabBarProtocolHandler -->
+  <manifest:file-entry
+      manifest:media-type="application/vnd.sun.star.configuration-data"
+      manifest:full-path="registry/org/openoffice/Office/ProtocolHandler.xcu"/>
+
+  <!-- Toolbar button that dispatches tabbar:init -->
+  <manifest:file-entry
+      manifest:media-type="application/vnd.sun.star.configuration-data"
+      manifest:full-path="registry/org/openoffice/Office/Addons.xcu"/>
+
+</manifest:manifest>

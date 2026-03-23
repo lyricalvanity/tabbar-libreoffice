@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Registers TabBarProtocolHandler to receive any dispatch URL beginning with
+  "tabbar:".  Used by the Addons.xcu toolbar button ("tabbar:init") to give
+  the extension a reliable startup trigger that does not depend on Jobs.xcu.
+-->
+<oor:component-data
+    oor:name="ProtocolHandler"
+    oor:package="org.openoffice.Office"
+    xmlns:oor="http://openoffice.org/2001/registry"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <node oor:name="HandlerSet">
+    <!--
+      Node name must equal the UNO implementation name of our handler class.
+      LO uses it to createInstanceWithContext() the handler.
+    -->
+    <node oor:name="com.github.tabbar.ProtocolHandler" oor:op="replace">
+      <prop oor:name="Protocols" oor:type="oor:string-list">
+        <value oor:separator=";">tabbar:*</value>
+      </prop>
+    </node>
+  </node>
+
+</oor:component-data>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Adds a "Tab Bar" toolbar to LibreOffice Writer (View > Toolbars > Tab Bar).
+  The single button dispatches "tabbar:init", which our ProtocolHandler
+  intercepts to bootstrap the tab bar even if Jobs.xcu events never fired.
+-->
+<oor:component-data
+    oor:name="Addons"
+    oor:package="org.openoffice.Office"
+    xmlns:oor="http://openoffice.org/2001/registry"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <node oor:name="AddonUI">
+
+    <node oor:name="OfficeToolBar">
+      <node oor:name="com.github.tabbar.InitToolbar" oor:op="replace">
+        <node oor:name="T001" oor:op="replace">
+          <prop oor:name="URL">
+            <value>tabbar:init</value>
+          </prop>
+          <prop oor:name="ImageIdentifier">
+            <value>%origin%/icons/tabbar_16.png</value>
+          </prop>
+          <prop oor:name="Title">
+            <value xml:lang="en-US">Refresh Tab Bar</value>
+          </prop>
+          <prop oor:name="Target">
+            <value>_self</value>
+          </prop>
+          <!-- Only active/relevant in Writer -->
+          <prop oor:name="Context">
+            <value>com.sun.star.text.TextDocument</value>
+          </prop>
+        </node>
+      </node>
+    </node>
+
+  </node>
+</oor:component-data>

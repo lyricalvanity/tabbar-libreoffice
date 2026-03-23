@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description
+    xmlns="http://openoffice.org/extensions/description/2006"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <identifier value="com.github.tabbar"/>
+  <version value="0.3.5"/>
+
+  <dependencies>
+    <OpenOffice.org-minimal-version value="4.0"
+        d:name="OpenOffice.org 4.0"
+        xmlns:d="http://openoffice.org/extensions/description/2006"/>
+  </dependencies>
+
+  <display-name>
+    <name lang="en">Tab Bar</name>
+  </display-name>
+
+  <extension-description>
+    <src lang="en" xlink:href="description/desc_en.txt"/>
+  </extension-description>
+
+  <publisher>
+    <name xlink:href="https://github.com/lyricalvanity/tabbar-libreoffice" lang="en">Tab Bar</name>
+  </publisher>
+
+</description>
