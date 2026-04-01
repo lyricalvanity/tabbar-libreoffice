@@ -4,7 +4,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink">
 
   <identifier value="com.github.tabbar"/>
-  <version value="0.3.5"/>
+  <version value="0.4.0"/>
 
   <dependencies>
     <OpenOffice.org-minimal-version value="4.0"
@@ -14,6 +14,43 @@
 
   <display-name>
     <name lang="en">Tab Bar</name>
+    <name lang="de">Registerkartenleiste</name>
+    <name lang="fr">Barre d'onglets</name>
+    <name lang="es">Barra de pesta&#241;as</name>
+    <name lang="it">Barra delle schede</name>
+    <name lang="nl">Tabbladenbalk</name>
+    <name lang="pl">Pasek kart</name>
+    <name lang="pt">Barra de sep&#225;radores</name>
+    <name lang="pt-BR">Barra de abas</name>
+    <name lang="ru">&#1055;&#1072;&#1085;&#1077;&#1083;&#1100; &#1074;&#1082;&#1083;&#1072;&#1076;&#1086;&#1082;</name>
+    <name lang="sv">Flikrad</name>
+    <name lang="da">Fanelinje</name>
+    <name lang="fi">V&#228;lilehtipalkki</name>
+    <name lang="nb">Fanelinje</name>
+    <name lang="cs">Panel karet</name>
+    <name lang="hu">F&#252;lsáv</name>
+    <name lang="tr">Sekme &#199;ubu&#287;u</name>
+    <name lang="zh-CN">&#26631;&#31614;&#26465;</name>
+    <name lang="zh-TW">&#26371;&#31614;&#21015;</name>
+    <name lang="ja">&#12479;&#12502;&#12496;&#12540;</name>
+    <name lang="ko">&#ud0ed; &#bc14;</name>
+    <name lang="sk">Panel kariet</name>
+    <name lang="ro">Bara de file</name>
+    <name lang="el">&#915;&#961;&#945;&#956;&#956;&#942; &#954;&#945;&#961;&#964;&#949;&#955;&#974;&#957;</name>
+    <name lang="uk">&#1055;&#1072;&#1085;&#1077;&#1083;&#1100; &#1074;&#1082;&#1083;&#1072;&#1076;&#1086;&#1082;</name>
+    <name lang="bg">&#1051;&#1077;&#1085;&#1090;&#1072; &#1089; &#1088;&#1072;&#1079;&#1076;&#1077;&#1083;&#1080;</name>
+    <name lang="hr">Traka kartica</name>
+    <name lang="ca">Barra de pestanyes</name>
+    <name lang="eu">Fitxa-barra</name>
+    <name lang="gl">Barra de pestanas</name>
+    <name lang="vi">Thanh tab</name>
+    <name lang="id">Tab Bar</name>
+    <name lang="ar">&#1588;&#1585;&#1610;&#1591; &#1593;&#1604;&#1575;&#1605;&#1575;&#1578; &#1575;&#1604;&#1578;&#1576;&#1608;&#1610;&#1576;</name>
+    <name lang="he">&#1505;&#1512;&#1490;&#1500; &#1499;&#1512;&#1496;&#1497;&#1505;&#1497;&#1493;&#1514;</name>
+    <name lang="hi">&#2335;&#2376;&#2348; &#2348;&#2366;&#2352;</name>
+    <name lang="af">Oortjiebalk</name>
+    <name lang="fa">&#1606;&#1608;&#1575;&#1585; &#1586;&#1576;&#1575;&#1606;&#1607;</name>
+    <name lang="sw">Upau wa Vichupo</name>
   </display-name>
 
   <extension-description>

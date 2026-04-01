@@ -23,6 +23,43 @@
           </prop>
           <prop oor:name="Title">
             <value xml:lang="en-US">Refresh Tab Bar</value>
+            <value xml:lang="de">Registerkartenleiste aktualisieren</value>
+            <value xml:lang="fr">Actualiser la barre d'onglets</value>
+            <value xml:lang="es">Actualizar barra de pesta&#241;as</value>
+            <value xml:lang="it">Aggiorna barra delle schede</value>
+            <value xml:lang="nl">Tabbladenbalk vernieuwen</value>
+            <value xml:lang="pl">Od&#347;wie&#380; pasek kart</value>
+            <value xml:lang="pt">Atualizar barra de sep&#225;radores</value>
+            <value xml:lang="pt-BR">Atualizar barra de abas</value>
+            <value xml:lang="ru">&#1054;&#1073;&#1085;&#1086;&#1074;&#1080;&#1090;&#1100; &#1087;&#1072;&#1085;&#1077;&#1083;&#1100; &#1074;&#1082;&#1083;&#1072;&#1076;&#1086;&#1082;</value>
+            <value xml:lang="sv">Uppdatera flikrad</value>
+            <value xml:lang="da">Opdater fanelinje</value>
+            <value xml:lang="fi">P&#228;ivit&#228; v&#228;lilehtipalkki</value>
+            <value xml:lang="nb">Oppdater fanelinje</value>
+            <value xml:lang="cs">Obnovit panel karet</value>
+            <value xml:lang="hu">F&#252;lsáv frissítése</value>
+            <value xml:lang="tr">Sekme &#231;ubu&#287;unu yenile</value>
+            <value xml:lang="zh-CN">&#21047;&#26032;&#26631;&#31614;&#26465;</value>
+            <value xml:lang="zh-TW">&#21047;&#26032;&#26371;&#31614;&#21015;</value>
+            <value xml:lang="ja">&#12479;&#12502;&#12496;&#12540;&#12434;&#26356;&#26032;</value>
+            <value xml:lang="ko">&#ud0ed; &#bc14; &#49352;&#47196; &#44256;&#uce68;</value>
+            <value xml:lang="sk">Obnovi&#357; panel kariet</value>
+            <value xml:lang="ro">Re&#238;mprosp&#259;ta&#539;i bara de file</value>
+            <value xml:lang="el">&#913;&#957;&#945;&#957;&#941;&#969;&#963;&#951; &#947;&#961;&#945;&#956;&#956;&#942;&#962; &#954;&#945;&#961;&#964;&#949;&#955;&#974;&#957;</value>
+            <value xml:lang="uk">&#1054;&#1085;&#1086;&#1074;&#1080;&#1090;&#1080; &#1087;&#1072;&#1085;&#1077;&#1083;&#1100; &#1074;&#1082;&#1083;&#1072;&#1076;&#1086;&#1082;</value>
+            <value xml:lang="bg">&#1054;&#1073;&#1085;&#1086;&#1074;&#1103;&#1074;&#1072;&#1085;&#1077; &#1085;&#1072; &#1083;&#1077;&#1085;&#1090;&#1072;&#1090;&#1072; &#1089; &#1088;&#1072;&#1079;&#1076;&#1077;&#1083;&#1080;</value>
+            <value xml:lang="hr">Osvje&#382;i traku kartica</value>
+            <value xml:lang="ca">Actualitza la barra de pestanyes</value>
+            <value xml:lang="eu">Fitxa-barra freskatu</value>
+            <value xml:lang="gl">Actualizar a barra de pestanas</value>
+            <value xml:lang="vi">L&#224;m m&#7899;i thanh tab</value>
+            <value xml:lang="id">Segarkan Tab Bar</value>
+            <value xml:lang="ar">&#1578;&#1581;&#1583;&#1610;&#1579; &#1588;&#1585;&#1610;&#1591; &#1593;&#1604;&#1575;&#1605;&#1575;&#1578; &#1575;&#1604;&#1578;&#1576;&#1608;&#1610;&#1576;</value>
+            <value xml:lang="he">&#1512;&#1506;&#1504;&#1503; &#1488;&#1514; &#1505;&#1512;&#1490;&#1500; &#1492;&#1499;&#1512;&#1496;&#1497;&#1505;&#1497;&#1493;&#1514;</value>
+            <value xml:lang="hi">&#2335;&#2376;&#2348; &#2348;&#2366;&#2352; &#2340;&#2366;&#2332;&#2364;&#2366; &#2325;&#2352;&#2375;&#2306;</value>
+            <value xml:lang="af">Verfris oortjiebalk</value>
+            <value xml:lang="fa">&#1578;&#1575;&#1586;&#1607;&#8204;&#1587;&#1575;&#1586;&#1740; &#1606;&#1608;&#1575;&#1585; &#1586;&#1576;&#1575;&#1606;&#1607;</value>
+            <value xml:lang="sw">Onyesha upya upau wa vichupo</value>
           </prop>
           <prop oor:name="Target">
             <value>_self</value>

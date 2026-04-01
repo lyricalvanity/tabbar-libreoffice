@@ -4,6 +4,18 @@ All notable changes to this project are documented in this file.
 
 ---
 
+## [0.4.0] — 2026-04-01
+
+### Added
+- **Full localisation across 38 languages** — all UI strings are now displayed in the user's LibreOffice interface language. Supported languages: German, French, Spanish, Italian, Dutch, Polish, Portuguese, Brazilian Portuguese, Russian, Swedish, Danish, Finnish, Norwegian Bokmål, Czech, Hungarian, Turkish, Simplified Chinese, Traditional Chinese, Japanese, Korean. Falls back to English for unsupported locales.
+- Locale detected automatically from LibreOffice's own UI language setting (`org.openoffice.Setup/L10N/ooLocale`).
+- Supported languages: German, French, Spanish, Italian, Dutch, Polish, Portuguese, Brazilian Portuguese, Russian, Swedish, Danish, Finnish, Norwegian Bokmål, Czech, Slovak, Hungarian, Romanian, Greek, Turkish, Ukrainian, Bulgarian, Croatian, Catalan, Basque, Galician, Simplified Chinese, Traditional Chinese, Japanese, Korean, Vietnamese, Indonesian, Arabic, Persian, Hebrew, Hindi, Swahili, Afrikaans. Falls back to English for unsupported locales.
+- All menu items, dialog titles, prompts, and error messages are localised.
+- Extension display name localised in `description.xml` for all supported locales (visible in Extension Manager).
+- "Refresh Tab Bar" toolbar button title localised in `Addons.xcu`.
+
+---
+
 ## [0.3.5] — 2026-03-23
 
 ### Changed

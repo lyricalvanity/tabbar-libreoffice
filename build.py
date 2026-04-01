@@ -109,10 +109,12 @@ for size, name in [(16, "tabbar_16.png"), (26, "tabbar_26.png")]:
 print("Packaging OXT…")
 with zipfile.ZipFile(OUT_OXT, "w", zipfile.ZIP_DEFLATED) as z:
     for root, dirs, files in os.walk(SCRIPT_DIR):
-        dirs[:] = [d for d in dirs if d not in ("__pycache__", "screenshots")]
+        dirs[:] = [d for d in dirs if d not in ("__pycache__", ".git", ".idea", ".vscode", "screenshots")]
         for fname in files:
             if fname == "build.py" or fname.endswith(".pyc"):
                 continue
+            if fname.startswith(".") and fname not in ():
+                continue  # skip .gitignore, .DS_Store, etc.
             full_path = os.path.join(root, fname)
             arc_name  = os.path.relpath(full_path, SCRIPT_DIR).replace("\\", "/")
             z.write(full_path, arc_name)
